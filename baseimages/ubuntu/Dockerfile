@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 MAINTAINER UCW Industries Ltd. <info@unitycloudware.com>
 
 RUN apt-get update && \
