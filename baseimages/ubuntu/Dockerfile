@@ -1,5 +1,5 @@
-FROM ubuntu:18.04
-MAINTAINER UCW Industries Ltd. <info@unitycloudware.com>
+FROM ubuntu:24.04
+LABEL org.opencontainers.image.authors="UCW Industries Ltd. <info@unitycloudware.com>"
 
 RUN apt-get update && \
     apt-get -y dist-upgrade && \
