@@ -1,5 +1,5 @@
-FROM debian:jessie
-MAINTAINER UCW Industries Ltd. <info@unitycloudware.com>
+FROM debian:bookworm
+LABEL org.opencontainers.image.authors="UCW Industries Ltd. <info@unitycloudware.com>"
 
 RUN apt-get update && \
     apt-get -y dist-upgrade && \
